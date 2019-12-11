@@ -12,9 +12,24 @@ Variable / Field Name |	Section Header | Form Name  |	Field Type  |	multipleChoi
 |          |            |        |            |               |              |              |          |           |        |     
 
 + **Variable / Field Name**
+The id for the survey item (required) <br/>
++ **Section Header** 
+Preamble for the survey item (leave blank if you don't want a preamble) <br/>
 + **Section Header** 
 + **Form Name**
+Name of the activity the survey item is a part of <br/>
++ **Section Header** 
 + **Field Type**
+Type of reponse for survey item, currenty supports: 
+  + radio
+  + select
+  + slider
+  + text
+  + static
+  + timeRange
+  <br/>
+  
++ **Section Header** 
 + **multipleChoice**
 + **Field Label**
 + **Choices, Calculations, OR Slider Labels**
